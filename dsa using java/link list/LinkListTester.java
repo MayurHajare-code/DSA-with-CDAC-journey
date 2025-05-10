@@ -23,7 +23,7 @@ public class LinkListTester{
 */
     public static void main(String[] args) {
         LinkList l = new LinkList();
-        l.printData();
+        /*l.printData();*/
         l.insertAtBeginning(101);
         l.insertAtBeginning(102);
         l.insertAtSpecificPosition(105, 1);
@@ -35,6 +35,14 @@ public class LinkListTester{
         System.out.println("Link list data : ");
         l.printData();
 
+        //l.deleteFromBegining();
+        //l.deleteFromLast();
+        l.deleteFromSpecificPosition(3); // start from zero
+
+        System.out.println("Link list data after deleting some element : ");
+        l.printData();
+
+/*
         // search element
         boolean res = l.searchData(107);
         if(res) {
@@ -42,7 +50,7 @@ public class LinkListTester{
         }else {
             System.out.println("element is not present ");
         }
-
+*/
 
 
     }

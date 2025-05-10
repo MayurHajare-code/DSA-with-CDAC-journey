@@ -71,6 +71,7 @@ public class LinkList {
             System.out.print(temp.data + " -> ");
             temp = temp.next;
         }
+        System.out.println();
     }
 
     // deleting elements from link list.
