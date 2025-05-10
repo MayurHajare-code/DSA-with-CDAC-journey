@@ -1,0 +1,21 @@
+What is an array ?
+-defination
+-default value of an array Elements is 0.
+
+
+Key characteristics of an array :-
+fixed size.
+Index-based - start index = 0, end index = size -1.
+Homogeneous Elements.
+Contiguous memory location.
+
+
+Types of array :- one Dimensional array , multi Dimensional array.
+
+
+Array basic and operation :- 
+creation(two ways)
+accessing(using index)
+getting length(using length property)
+modification(using index)
+traversing(using index and loop)

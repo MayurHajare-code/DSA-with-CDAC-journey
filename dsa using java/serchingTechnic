@@ -1,0 +1,20 @@
+Searching technic : -
+1. linear search
+
+2. binary search (you need sorted array)
+- mid index calcute (lowIndex + (highIndex - lowIndex)/2)
+    int[] arr = {10, 20, 25, 60, 85};
+    for eg. mid index = 0+ ((4 -0) / 2) = 0 + (4 / 2) = 2.
+
+- check : mid index == target element.
+
+- else check : 
+            case 1 -
+            target < arr[mid]  => high = mid -1;
+            case 2 -  
+            target > arr[mid]  => low = mid +1;
+
+- repeat it above steps for samll array after changing low or high.
+
+best case : o(1)
+worst case : o(log n)
